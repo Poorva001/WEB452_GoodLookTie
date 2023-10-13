@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .text-center {
+        text-align: center;
+    }
+
+    .container.flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-images, .right-images {
+        flex: 1;
+        text-align: center;
+    }
+
+        .left-images img,
+        .right-images img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+    .text {
+        flex: 2;
+        text-align: center;
+    }
+
+</style>
+<div class="container">
+<div class="text-center">
+    <div class="container flex-container">
+        <div class="left-images">
+            <img src="~/images/img1.jpeg" />
+            <img src="~/images/img2.jpeg" />
+        </div>
+        <div class="text">
+            <h1 class="display-4">Good Look Tie</h1>
+            <p>Welcome to GoodLook Ties, where style meets sophistication in every knot. We are more than just a tie company; we are your go-to destination for enhancing your wardrobe with timeless elegance and modern flair. At GoodLook, we take pride in crafting the finest neckwear that complements your individuality and adds a touch of panache to your attire.</p>
+        </div>
+        <div class="right-images">
+            <img src="~/images/img5.jpeg" />
+            <img src="~/images/img4.jpeg" />
+        </div>
+    </div>
+</div>
+

@@ -16,7 +16,7 @@ Finally got to the seed data file and added the datas in it from my research.
 2023 10 12
 1230
 Created about page and added content to it.
-Added a link to about page on index page.
+Added a link to about page on home page.
 
 1410
 Adeed a css file and added images to the about page through images folder.

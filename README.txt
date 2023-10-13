@@ -21,4 +21,7 @@ Added a link to about page on home page.
 1410
 Adeed a css file and added images to the about page through images folder.
 
+1500
+Everything looks good and works perfectly.
+
 
